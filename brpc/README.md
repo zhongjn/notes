@@ -1,6 +1,6 @@
-# Notes
+# brpc
 
-## spoll
+## epoll
 
 1. 使用 edge trigger + 非阻塞 fd（阻塞时返回 EAGAIN）
 2. 原子性事件计数器来协调驱动线程（epoll_wait 的调用者）、处理线程
